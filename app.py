@@ -23,6 +23,7 @@ with col1:
     P_SOIL = st.number_input('P_Soil Value: ', min_value=10, step=1)
     Temp = st.number_input('Temperature: ', min_value=-10, step=1)
     Humidity = st.number_input('Humidity: ', min_value=1, step=1)
+with col2:
     ph = st.number_input('PH value: ', min_value=1, step=1)
     Rainfall = st.number_input('RainFall: ', min_value=1, step=1)
     State = st.selectbox('State: ', list(df['STATE'].unique()))
